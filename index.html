@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Identity Dental Lounge</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Identity Dental Lounge</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#appointment">Book Appointment</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h2>Expert Oral Surgery & Dental Implants</h2>
+    <p>Led by Dr. Manish Purohit, Maxillofacial Surgeon</p>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Identity Dental Lounge is a multi-specialty dental clinic with three locations in Mumbai. We specialize in oral surgical procedures and dental implants, led by experienced maxillofacial surgeons.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Oral & Maxillofacial Surgery</li>
+      <li>Dental Implants</li>
+      <li>Root Canal Treatment</li>
+      <li>Tooth Extractions</li>
+      <li>Teeth Whitening</li>
+      <li>Laser Dentistry</li>
+    </ul>
+  </section>
+
+  <section id="appointment">
+    <h2>Book Your Appointment</h2>
+    <form id="appointment-form" method="POST">
+      <input type="text" name="name" placeholder="Full Name" required />
+      <input type="tel" name="phone" placeholder="Phone Number" required />
+      <select name="clinic">
+        <option value="">Select Clinic</option>
+        <option value="Andheri">Andheri</option>
+        <option value="Kandivali">Kandivali</option>
+        <option value="Thakur Complex">Thakur Complex</option>
+      </select>
+      <input type="text" name="service" placeholder="Required Service" required />
+      <input type="date" name="date" required />
+      <input type="time" name="time" required />
+      <button type="submit">Submit</button>
+    </form>
+    <div id="form-status"></div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: identityclinic@gmail.com</p>
+    <p>Phone: +91-XXXXXXXXXX</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Identity Dental Lounge. All rights reserved.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
